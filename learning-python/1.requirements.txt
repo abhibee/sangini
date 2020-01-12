@@ -1,0 +1,9 @@
+1_0 Write a program:-
+Enter the number of students in your school :100
+Enter the number of tofees you want to give each of them :10
+
+The total number of tofees you need to buy are :1000
+
+
+30,30->900
+1000,10-->10000
