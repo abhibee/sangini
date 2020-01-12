@@ -1,11 +1,11 @@
-#ClickAndSmile.py
+# ClickAndSmile.py
 import random
 import turtle
 
 
-def draw_smiley(x,y):
+def draw_smiley(x, y):
     pen.penup()
-    pen.setpos(x,y)
+    pen.setpos(x, y)
     pen.pendown()
     # Face
     pen.pencolor("yellow")
@@ -40,4 +40,3 @@ pen.hideturtle()
 turtle.bgcolor("black")
 turtle.onscreenclick(draw_smiley)
 turtle.getscreen()._root.mainloop()
-
