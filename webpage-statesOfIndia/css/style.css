@@ -2,3 +2,7 @@ ul{
     font-size: 30px;
     display: inline-block;
 }
+
+body{
+    color: red;
+}
