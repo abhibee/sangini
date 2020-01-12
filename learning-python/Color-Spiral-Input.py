@@ -18,5 +18,3 @@ for x in range(160):
     t.width(x * sides / 200)
     
     
-
-

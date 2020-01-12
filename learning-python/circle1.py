@@ -1,5 +1,4 @@
 import turtle
-
 t = turtle.Pen()
 t.speed(0)
 t.pencolor('red')

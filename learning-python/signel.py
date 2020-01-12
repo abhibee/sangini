@@ -1,6 +1,4 @@
 
-
-
 def runtraffic():
     colour = input('what colour is the signal?: ')
     if colour =='red':
@@ -12,7 +10,5 @@ def runtraffic():
     else:
         print('not a valid signal. Program exiting')
         exit(0)
-
-
 while (True) :
     runtraffic()

@@ -1,5 +1,4 @@
 import turtle
-
 t = turtle.Pen()
 t.getscreen().bgcolor("black")
 t.speed(0)

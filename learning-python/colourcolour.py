@@ -4,7 +4,6 @@ t = turtle.Pen()
 t.getscreen().bgcolor("black")
 t.speed(-1234567890)
 t.width(3)
-
 number_of_circles = int(turtle.numinput("Number of circles",
                                         "How many circles in your rosette?", 6))
 for x in range(number_of_circles):

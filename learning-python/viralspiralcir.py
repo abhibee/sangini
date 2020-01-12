@@ -21,5 +21,4 @@ for m in range(100):
     t.setpos(position)
     t.setheading(heading)
     t.left(360/sides + 2)
-
 t.getscreen().getcanvas().postscript(file="spiral.ps", colormode='color')

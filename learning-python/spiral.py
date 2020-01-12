@@ -1,5 +1,4 @@
 import turtle
-
 t = turtle.Pen()
 # turtle.Screen().bgcolor("black")
 t.getscreen().bgcolor("black")
@@ -11,7 +10,4 @@ for x in range(360):
     t.forward(x * 3 / sides + x)
     t.left(360/sides + 91)
     t.width(x*sides/200)
-
-
-
 t.getscreen().getcanvas().postscript(file="spiral.ps", colormode='color')
